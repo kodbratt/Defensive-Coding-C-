@@ -44,6 +44,7 @@ namespace ACM.BL
 
             decimal goalStepCount = 0;
             decimal actualStepsCount = 0;
+            //hello
 
             if (string.IsNullOrWhiteSpace(goalSteps)) throw new ArgumentException("Goal must be entered");
             if (string.IsNullOrWhiteSpace(actualSteps)) throw new ArgumentException("Steps must be entered");
