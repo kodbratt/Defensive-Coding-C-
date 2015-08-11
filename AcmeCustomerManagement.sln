@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Common", "Core.Common\Core.Common.csproj", "{9BB00412-CE1E-43A1-A623-B0DA52BDDA9A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{A32AB53F-F1AD-4414-897A-1B28F52BD3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTests", "ACM.BLTests\ACM.BLTests.csproj", "{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{9BB00412-CE1E-43A1-A623-B0DA52BDDA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB00412-CE1E-43A1-A623-B0DA52BDDA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB00412-CE1E-43A1-A623-B0DA52BDDA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7F551AE-7A7E-4E3F-B17A-C8B5002601BB} = {A32AB53F-F1AD-4414-897A-1B28F52BD3F2}
 	EndGlobalSection
 EndGlobal
